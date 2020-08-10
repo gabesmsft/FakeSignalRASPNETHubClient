@@ -25,7 +25,7 @@ namespace FunctionAppForSignalR
             {
 
                 //create a connection to the SignalR site
-                    var hub = new HubConnection("https://<YourRemoteAzureWebAppName>.azurewebsites.net");
+                    var hub = new HubConnection("https://gabefakesignalr.azurewebsites.net");
                     //hub.Stop();
                     string invocationId = context.InvocationId.ToString();
 
